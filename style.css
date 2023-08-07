@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+nav img
+{
+    width: 150px;
+}
+.Name
+{
+    direction: rtl;
+    font-size: 25px;
+}
+.Name li a
+{
+    font-size: 20px;
+    color: #ee8d05;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    background: transparent;
+}
+.Name2
+{
+    font-size: 60px;
+}
+.Name li a:hover
+{
+    color: #ee8d05;
+    background: #0075FF;
+}
+a
+{
+    color: black;
+    font-size: 30px;
+    transition: .5s;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 3px solid transparent;
+}
+.Card2 a:hover
+{
+    color: #0075FF;
+    background: #fff;
+    border: 3px solid #fff;
+}
+.Card2::before
+{
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    content: "";
+    width: 300%;
+    height: 100vh;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #0075FF;
+    box-shadow: -6px -20px 15px 0px #7ebae9;
+    transform: translateX(-50%) skew(0, 10deg);
+    animation: waving 5s ease-in-out infinite alternate;
+}
+@keyframes waving
+{
+    from
+    {
+        transform: translateX(-50%) skew(0, -10deg);
+    }
+    to
+    {
+        transform: translateX(-50%) skew(10deg, 0);
+    }
+}
+.landing
+{
+    min-height: calc(100vh - 1px);
+}
+
+.Countainer
+{
+    width: 100%;
+}
+.row
+{
+    width: 100%;
+}
+.icon-holder img
+{
+    width: 210px;
+}
+.P1
+{
+    color: yellowgreen;
+}
+.Sub1
+{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.Sub1:hover
+{
+    color: black;
+}
+.H5
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.A1:hover
+{
+    color: black;
+}
+p img
+{
+    width: 55px;
+}
+.icon-holder2 img
+{
+    width: 310px;
+}
+.Img13
+{
+    width: 200px;
+}
+.Hello
+{
+    background: #7ebae9;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    font-weight: bold;
+    right: 19px;
+    position: fixed;
+    bottom: 19px;
+    display: none;
+    cursor: pointer;
+}
